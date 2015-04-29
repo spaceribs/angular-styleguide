@@ -288,7 +288,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 ## Controllers
 
-### controllerAs View Syntax
+### ~~controllerAs View Syntax~~
 ###### [Style [Y030](#style-y030)]
 
   - Use the [`controllerAs`](http://www.johnpapa.net/do-you-like-your-angular-controllers-with-or-without-sugar/) syntax over the `classic controller with $scope` syntax.
@@ -313,7 +313,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
   </div>
   ```
 
-### controllerAs Controller Syntax
+### ~~controllerAs Controller Syntax~~
 ###### [Style [Y031](#style-y031)]
 
   - Use the `controllerAs` syntax over the `classic controller with $scope` syntax.
@@ -340,7 +340,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
   }
   ```
 
-### controllerAs with vm
+### ~~controllerAs with vm~~
 ###### [Style [Y032](#style-y032)]
 
   - Use a capture variable for `this` when using the `controllerAs` syntax. Choose a consistent variable name such as `vm`, which stands for ViewModel.
@@ -389,7 +389,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
   }
   ```
 
-### Bindable Members Up Top
+### ~~Bindable Members Up Top~~
 ###### [Style [Y033](#style-y033)]
 
   - Place bindable members at the top of the controller, alphabetized, and not spread through the controller code.
